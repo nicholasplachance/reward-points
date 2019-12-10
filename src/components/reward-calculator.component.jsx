@@ -27,7 +27,7 @@ export const RewardCalc = props => {
 			<div className="flex-container">
 				<ul>
 					{CustomerInfo.map(({ id, balance }) => (
-						<li key={id}>Transaction total: {balance} =</li>
+						<li key={id}>Transaction total: ${balance}</li>
 					))}
 				</ul>
 				<ul>
